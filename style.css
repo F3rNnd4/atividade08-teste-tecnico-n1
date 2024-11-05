@@ -15,8 +15,8 @@ main {
     --cor-fundo-1: rgba(196, 196, 196, 0.7);
     --produtos-container: #F2EFE5;
     --card-produto: rgba(196, 196, 196, 0.4);
-    --botao-cancel: #EC1B1B;
-    --botao-checkout: #3F9EF7;
+    --botao-cancel: rgba(236, 27, 27, 0.7);
+    --botao-checkout: rgba(63, 158, 247, 1);
     --cor-fundo-2: rgba(28, 27, 27, 1);
 }
 
@@ -176,6 +176,14 @@ main {
     align-items: center;
     border-radius: 1.5vh;
     gap: 1vh;
+}
+
+.button-cancel:hover {
+    background-color: rgba(236, 27, 27, 0.8);
+}
+
+.button-checkout:hover {
+    background-color: rgba(63, 158, 247, 0.8);
 }
 
 /*-----------------------*/
